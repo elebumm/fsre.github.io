@@ -1,0 +1,54 @@
+body, html {
+  height: 100%;
+}
+
+
+.left-side {
+  height: 100%;
+  background: linear-gradient(
+      rgba(128,184,115,0.40),
+      rgba(128,184,115,0.40)
+    ), url('../images/bg.png');
+    background-size: cover;
+    /* Rectangle 2: */
+
+}
+
+@font-face {
+  font-family: tmrrw;
+  src: url(../fonts/TradeGothicLTBold.ttf);
+}
+
+.font {
+  font-family: tmrrw;
+}
+
+
+.logo {
+  margin: auto;
+  display: block;
+  margin-top: 5em;
+}
+
+.coming-soon {
+  text-align: center;
+    font-size: 3.2em;
+    font-weight: bold;
+    color: black;
+    font-family: tmrrw;
+    margin-top: 1em;
+}
+
+.paragraph {
+  text-align: center;
+    color: black;
+    font-size: 1.5em;
+    padding: 2.6em;
+}
+
+.fb-button {
+  background-color: #6BC072 !important;
+  color: white;
+  border: 0 !important;
+  font-family: tmrrw;
+}
